@@ -1,0 +1,39 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30pxs
+}
+
+.divider{
+    width: 100%;
+    padding: 0.3px;
+    background-color: #e5ff00;
+}
+
+.container-task{
+    display: flex;
+    justify-content: center;
+}
+
+.box-task{
+    background-color: #07eff7;
+    max-width: 400px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.task{
+    padding: 5px;
+}
+
+.task-single{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-delete{
+    cursor: pointer;
+}
